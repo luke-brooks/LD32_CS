@@ -6,3 +6,4 @@ C:\Users\Shane\Downloads\LD32\LD32\obj\x86\Debug\LD32.exe
 C:\Users\Shane\Downloads\LD32\LD32\obj\x86\Debug\LD32.pdb
 C:\Users\Shane\Downloads\LD32\LD32\bin\WindowsGL\Debug\LD32.exe
 C:\Users\Shane\Downloads\LD32\LD32\bin\WindowsGL\Debug\LD32.pdb
+C:\Users\Shane\Downloads\LD32\LD32\bin\WindowsGL\Debug\Content\ground.xnb

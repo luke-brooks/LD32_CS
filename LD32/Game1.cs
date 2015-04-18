@@ -11,6 +11,7 @@ namespace LD32
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Texture2D test;
 
         public Game1()
             : base()
@@ -40,7 +41,7 @@ namespace LD32
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            test = Content.Load<Texture2D>(@"ground");
             // TODO: use this.Content to load your game content here
         }
 
@@ -75,9 +76,9 @@ namespace LD32
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-
-            // TODO: Add your drawing code here
-
+            spriteBatch.Begin();
+            spriteBatch.Draw(test, new Vector2(0, 300), Color.White);
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }
