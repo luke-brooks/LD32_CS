@@ -5,7 +5,21 @@ using System.Text;
 
 namespace LD32.Characters
 {
-    class Player
+    public class Player : ICharacter
     {
+        public void DrawCharacter()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdateCharacter()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void LoadCharacter()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

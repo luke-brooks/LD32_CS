@@ -7,5 +7,8 @@ namespace LD32.Characters
 {
     interface ICharacter
     {
+        void DrawCharacter();
+        void UpdateCharacter();
+        void LoadCharacter();
     }
 }
